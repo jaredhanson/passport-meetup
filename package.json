@@ -1,0 +1,16 @@
+{
+  "name": "passport-meetup",
+  "version": "0.1.0",
+  "description": "Meetup authentication strategy for Passport.",
+  "author": "Jared Hanson <jaredhanson@gmail.com> (http://www.jaredhanson.net/)",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jaredhanson/passport-meetup.git"
+  },
+  "main": "./lib/passport-meetup",
+  "dependencies": {
+    "passport-oauth": ">= 0.1.0"
+  },
+  "engines": { "node": ">= 0.4.0" },
+  "keywords": ["passport", "meetup", "auth", "authn", "authentication", "identity"]
+}
