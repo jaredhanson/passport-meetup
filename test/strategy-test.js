@@ -78,6 +78,12 @@ vows.describe('MeetupStrategy').addBatch({
         assert.equal(profile.id, '7165628');
         assert.equal(profile.displayName, 'Jared Hanson');
       },
+      'should set raw property' : function(err, profile) {
+        assert.isString(profile._raw);
+      },
+      'should set json property' : function(err, profile) {
+        assert.isObject(profile._json);
+      },
     },
   },
   
