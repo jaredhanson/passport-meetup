@@ -7,9 +7,6 @@ var meetup = require('..');
 vows.describe('passport-meetup').addBatch({
   
   'module': {
-    'should report a version': function (x) {
-      assert.isString(meetup.version);
-    },
   },
   
 }).export(module);
