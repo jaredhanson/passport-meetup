@@ -1,7 +1,7 @@
 var vows = require('vows');
 var assert = require('assert');
 var util = require('util');
-var MeetupStrategy = require('passport-meetup/strategy');
+var MeetupStrategy = require('../lib/strategy');
 
 
 vows.describe('MeetupStrategy').addBatch({
